@@ -73,7 +73,7 @@ def update():
             pixels.show()
     
         sleep(1/fps)
-
+        
 app = Flask(__name__)
 
 @app.route('/')
